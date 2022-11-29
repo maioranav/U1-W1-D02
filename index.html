@@ -37,9 +37,9 @@
                a tutte le pagine</p>
             <p>Le varie aree saranno quindi suddivise in:</p>
             <ul>
-               <li>Contenuti di intestazione del tag &lt;header&gt;</li>
-               <li>Contenuti centrali variabili del tag &lt;main&gt; (corpo principale)</li>
-               <li>Contenuti di fine pagina comuni, da inserire nel tag &lt;footer&gt;</li>
+               <li>Contenuti di intestazione del tag <code>&lt;header&gt;</code></li>
+               <li>Contenuti centrali variabili del tag <code>&lt;main&gt;</code> (corpo principale)</li>
+               <li>Contenuti di fine pagina comuni, da inserire nel tag <code>&lt;footer&gt;</code></li>
                <li>Formattazione del codice</li>
             </ul>
             <p>Il testo dell'articolo dovrà essere formattato per identificare tutte le parti da selezionare con i CSS.
@@ -100,23 +100,28 @@
             <input type="email" placeholder="Inserisci l'Email" />
             <button type="submit">Iscriviti!</button>
          </form>
-
-         <h6>Articoli Correlati</h6>
-         <article class="related">
-            <p><a href="#">Validare il codice HTML</a></p>
-            <p class="sidecat">Categoria: develop</p>
-            <p class="sidedate">Data: 18-9-2020</p>
-         </article>
-         <article class="related">
-            <p><a href="#">Correggere la sintassi</a></p>
-            <p class="sidecat">Categoria: develop</p>
-            <p class="sidedate">Data: 16-9-2020</p>
-         </article>
-         <article class="related">
-            <p><a href="#">Meno Kb nella pagina</a></p>
-            <p class="sidecat">Categoria: ottimizzazione</p>
-            <p class="sidedate">Data: 30-9-2020</p>
-         </article>
+         <div class="articolicorrelati">
+            <h6>Articoli Correlati</h6>
+            <article class="related">
+               <p><a href="#">Validare il codice HTML</a></p>
+               <p class="sidecat">Categoria: develop</p>
+               <p class="sidedate">Data: 18-9-2020</p>
+            </article>
+            <article class="related">
+               <p><a href="#">Correggere la sintassi</a></p>
+               <p class="sidecat">Categoria: develop</p>
+               <p class="sidedate">Data: 16-9-2020</p>
+            </article>
+            <article class="related">
+               <p><a href="#">Meno Kb nella pagina</a></p>
+               <p class="sidecat">Categoria: ottimizzazione</p>
+               <p class="sidedate">Data: 30-9-2020</p>
+            </article>
+         </div>
+         <div id="madeby">
+            <p>Made with love by:</p>
+            <p><a href="https://www.vincenzomaiorana.it" target="_blank"> Vincenzo Maiorana</a></p>
+         </div>
       </aside>
    </main>
    <footer>
