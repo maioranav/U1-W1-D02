@@ -1,0 +1,137 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,400&display=swap");
+
+body {
+  margin: 0;
+  background-color: rgb(224, 224, 224);
+  color: rgb(43, 43, 43);
+  font-family: "Roboto", sans-serif;
+}
+
+header {
+  /*  background-color: rgb(104, 107, 255); */
+  background: linear-gradient(120deg, #e08383, #a057ff);
+  color: white;
+  padding: 20px;
+  display: flex;
+
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.logo-desc h5 {
+  font-style: italic;
+  font-size: 2.5em;
+  margin: 0;
+}
+navbar {
+  display: flex;
+  flex-direction: row;
+  justify-content: right;
+  list-style: none;
+  font-size: 20px;
+}
+navbar a {
+  color: white;
+  text-decoration: none;
+}
+navbar a:hover {
+  color: orange;
+}
+navbar li {
+  width: 100px;
+}
+.logo-img {
+  padding: 0px 30px;
+}
+.logo-img img {
+  width: 50%;
+}
+article {
+  padding: 20px;
+  width: 75%;
+}
+#title {
+  padding: 20px 30px;
+}
+#title h4 {
+  margin: 0;
+  font-style: italic;
+}
+#title h1 {
+  font-weight: 700;
+  font-size: 32px;
+  margin: 0;
+}
+article p {
+  padding: 20px 0;
+}
+table {
+  margin: 30px;
+  text-align: center;
+  border: 1px solid blueviolet;
+}
+caption {
+  font-style: italic;
+}
+th {
+  border: 1px solid blueviolet;
+  background-color: blueviolet;
+  padding: 20px;
+  color: white;
+  margin: 0;
+}
+td {
+  padding: 5px 0;
+  border-top: 1px solid blueviolet;
+}
+main {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0;
+}
+aside {
+  width: 220px;
+  padding: 50px;
+}
+aside p {
+  margin: 0;
+  padding: 0 0;
+}
+.related {
+  margin: 0;
+  width: max-content;
+  padding: 30px 0;
+}
+aside h6 {
+  font-size: 1.5em;
+  margin-top: 50px;
+  margin-bottom: 0;
+}
+aside a {
+  text-decoration: none;
+  color: blueviolet;
+}
+aside a:hover {
+  color: orange;
+}
+.newsletter p {
+  padding-bottom: 10px;
+}
+footer {
+  background-color: black;
+  display: flex;
+  justify-content: space-between;
+  padding: 30px;
+  color: rgb(241, 197, 114);
+}
+footer a {
+  text-decoration: none;
+}
+footer a:hover {
+  color: white;
+}
+.sidecat,
+.sidedate {
+  font-size: 0.7em;
+  font-style: italic;
+}
