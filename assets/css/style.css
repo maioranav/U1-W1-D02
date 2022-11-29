@@ -18,10 +18,20 @@ header {
   align-items: center;
   flex-wrap: wrap;
 }
-.logo-desc h5 {
+.logo-img h5 {
   font-style: italic;
-  font-size: 2.5em;
+  padding: 10px 0;
+  font-size: 1.2em;
   margin: 0;
+}
+.logo-img {
+  padding: 0 30px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+.logo-img img {
+  width: 50%;
 }
 navbar {
   display: flex;
@@ -38,14 +48,10 @@ navbar a:hover {
   color: orange;
 }
 navbar li {
-  width: 100px;
+  /*width: 100px;*/
+  padding: 0 30px;
 }
-.logo-img {
-  padding: 0px 30px;
-}
-.logo-img img {
-  width: 50%;
-}
+
 article {
   padding: 20px;
   width: 75%;
@@ -120,6 +126,8 @@ aside a:hover {
 footer {
   background-color: black;
   display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
   justify-content: space-between;
   padding: 30px;
   color: rgb(241, 197, 114);
