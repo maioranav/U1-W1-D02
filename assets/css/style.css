@@ -23,6 +23,7 @@ header {
   padding: 10px 0;
   font-size: 1.2em;
   margin: 0;
+  text-shadow: 3px 3px 3px gray;
 }
 .logo-img {
   padding: 0 30px;
@@ -43,6 +44,7 @@ navbar {
 navbar a {
   color: white;
   text-decoration: none;
+  text-shadow: 3px 3px 3px gray;
 }
 navbar a:hover {
   color: orange;
